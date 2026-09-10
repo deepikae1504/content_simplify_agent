@@ -1,0 +1,40 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IBM Cloud / deployment credentials
+*.token
+deployment_info.json
+
+# Logs
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
